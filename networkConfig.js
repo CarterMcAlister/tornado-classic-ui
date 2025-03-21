@@ -28,6 +28,10 @@ export default {
     networkName: 'Ethereum Mainnet',
     deployedBlock: 9116966,
     rpcUrls: {
+      Pokt: {
+        name: 'Pokt',
+        url: 'https://eth-pokt.nodies.app'
+      },
       Infura: {
         name: 'Infura',
         url: `https://mainnet.infura.io/v3/${INFURA_KEY}`
